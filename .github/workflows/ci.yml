@@ -4,4 +4,6 @@ jobs:
   ci:
     runs-on: ubuntu-20.04
     steps:
-      - run: echo "here"
+      - uses: actions/checkout@v2
+      - run: pwd
+
